@@ -1,0 +1,18 @@
+
+nav {
+  background-color: #444;
+  padding: 0.5em 0;
+  }
+  
+  nav a {
+  color: #fff;
+  text-decoration: none;
+  padding: 0.5em 1em;
+  margin: 0 0.5em;
+  border-radius: 5px;
+  /* background-color: #555; */
+  }
+  
+  nav a:hover {
+  background-color: #666;
+  }

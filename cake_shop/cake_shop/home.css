@@ -1,0 +1,114 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f8f8f8;
+  }
+
+  header {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 1em 0;
+  }
+
+  nav {
+    background-color: #444;
+    padding: 0.5em 0;
+  }
+
+  nav a {
+    color: #fff;
+    text-decoration: none;
+    padding: 0.5em 1em;
+    margin: 0 0.5em;
+    border-radius: 5px;
+    background-color: #555;
+  }
+
+  nav a:hover {
+    background-color: #666;
+  }
+
+  /* .container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+    
+  } */
+  .container {
+    /* width: 80%; */
+    margin: 20px auto;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+
+  }
+
+  section {
+    display: flex;
+    padding: 20px;
+  }
+
+  .product {
+    width: 50%;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    overflow: hidden;
+    margin-bottom: 20px;
+    background-color: #fff;
+    margin: 15px;   
+  }
+
+  .product img {margin: auto;
+    align-items: center;
+    display: flow;
+    width: 100%;
+    height: auto;
+  }
+
+  .product-info {
+    text-align: center;
+    padding: 15px;
+  }
+ 
+.add-to-cart-btn {
+    display: inline-block;
+    background-color: #e44d26;
+    color: #fff;
+    text-decoration: none;
+    padding: 10px 15px;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .add-to-cart-btn:hover {
+    color: #000000;
+    background-color: #2af169;
+  }
+  
+  /* Additional styles for the shopping cart page if needed */
+  .cart {
+    max-width: 600px;
+    margin: 20px auto;
+    padding: 15px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+  }
+  
+  footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 1em 0;
+    /* position: fixed; */
+    bottom: 0;
+    width: 100%;
+  }
+  .container1{
+    display: flex;
+  }
